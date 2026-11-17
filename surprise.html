@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surprise 🎁</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="floaters"></div>
+<canvas id="confetti"></canvas>
+<audio id="background-music" src="song.mp3" loop preload="auto" hidden></audio>
+<header class="site-brand">Princess of My Heart <span>My Nimo</span></header>
+
+<main>
+  <h2>A Surprise for You 🎁</h2>
+  <p class="sub">Click the gift box 💝</p>
+
+  <button class="gift" id="gift" type="button" aria-label="Open your surprise">
+    <img src="gift.png" alt="Pink gift box">
+  </button>
+
+  <div id="surprise" class="hidden">
+    <div class="center" style="font-size:4rem">👑</div>
+    <h1 style="font-size:clamp(2rem,7vw,3.6rem)">Happy Princess Day!</h1>
+
+    <div class="gif-row">
+      <img class="ph" src="gif6.gif" alt="">
+      <img class="ph" src="gift33.gif" alt="">
+    </div>
+
+    <!-- Letter apne alfaaz mein badal do -->
+    <div class="letter">
+      <p><b>Meri Pyari Princess, Meri Nimo ❤️👑</b></p>
+      <p>Aaj Princess Day hai, aur mere liye tumse badi koi Princess nahi. Tum meri khushi ho, meri dua ho aur meri zindagi ki sabse khoobsurat wajah ho muskurane ki. Tumhari muskurahat mere din ko khoobsurat bana deti hai aur tumhari khushi mere liye duniya ki sabse qeemti cheez hai. ❤️</p>
+      <p>Main Allah se dua karta hoon ke tumhari har chhoti bari khwahish poori ho, tumhari zindagi hamesha khushiyon se bhari rahe aur tumhare chehre par ye pyari si muskurahat kabhi kam na ho. Tumhein zindagi mein har woh khushi mile jiski tum haqdar ho.</p>
+      <p>Meri jaan, tum sirf meri Princess nahi ho, balkay meri duniya ka woh khoobsurat hissa ho jise main kabhi khona nahi chahta. Hamesha aise hi khush rehna, muskurati rehna aur meri pyari si Princess ban kar rehna.</p>
+      <p><b>Happy Princess Day, Meri Nimo! ❤️👸🏻</b></p>
+      <p>I Love You So Much! 💗</p>
+    </div>
+
+    <div class="center">
+      <button class="btn" data-confetti>🎉</button>
+    </div>
+  </div>
+</main>
+<button class="music" id="music" type="button" aria-label="Play music" title="Play music">🎵</button>
+<script src="script.js"></script>
+</body>
+</html>
